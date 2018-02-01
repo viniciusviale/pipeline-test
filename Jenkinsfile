@@ -12,7 +12,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        input 'GMUD em PRD (Clique em "Proceed" para aprovar)'
+        input 'GMUD em PRD? (Clique em "Proceed" para aprovar)'
       }
     }
   }
