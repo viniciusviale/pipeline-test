@@ -12,7 +12,7 @@ pipeline {
     }
     stage('Test') {
       steps {
-        input 'Finished using the web site? (Click "Proceed" to continue)'
+        input 'GMUD em Produção (Click "Approved" to continue)'
       }
     }
   }
