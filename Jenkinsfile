@@ -13,7 +13,7 @@ pipeline {
     stage('Test') {
       steps {
         input 'GMUD em PRD? (Clique em "Proceed" para aprovar)'
-        sleep 5
+        sleep 15
       }
     }
   }
